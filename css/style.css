@@ -2,16 +2,16 @@ body {
     background-color: rgb(176, 255, 255);
 }
 h1 {
-    color:rgb(2, 90, 90)
+    color:rgb(2, 90, 90);
 }
 h2 {
-    color:rgb(0, 136, 136)
+    color:rgb(0, 136, 136);
 }
 h3 {
-    color: rgb(0, 136, 136)
+    color: rgb(0, 136, 136);
 }
 .info {
-    color: rgb(0, 34, 34)
+    color: rgb(0, 34, 34);
     padding: 0;
     margin: 0;
 }

@@ -36,21 +36,60 @@ body {
 
 
 }
+.wrapper-1{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    
+}
+.wrapper-2{
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.wrapper-3{
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info-cert{
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 h1 {
     color:rgb(7, 63, 63);
     font-family: 'IM Fell Double Pica SC', serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 h2{
     color:rgb(3, 112, 112);
     font-family: 'Ysabeau SC', sans-serif;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 h3 {
     color: rgb(0, 136, 136);
     font-family: 'Ysabeau SC', sans-serif;
 }
+.contact-list, .skill-list {
+    list-style-type: none;
+}
+ul.contact-list li, ul.skill-list li{
+    color:rgb(4, 30, 30);
+    font-family: 'Inconsolata', monospace;
+}
 p {
     color:rgb(4, 30, 30);
     font-family: 'Inconsolata', monospace;
+    text-align: justify;
+}
+.info-contact h3 {
+    text-align: center;
+}
+.info-contact {
+    text-align: justify;
 }
 .certificates {
     list-style-type: none;
@@ -66,16 +105,28 @@ p {
 }
 .photo {
     max-width: 30vw;
+    align-self: center;
+    justify-self: center;
 }
-.preformated {
-    padding-left: -50px;
-    margin-left: -50px;
+.info-skill {
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info-lang {
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.certificates{
+    text-align: justify;
+}
+.codewars {
+    text-align: center;
 }
 .code {
-    padding-right: 2vw;
     color: rgb(2, 72, 51);
-    font-size: 2.3vw;
-    
+    font-size: 2vw;
 }
 
 /*FOOTER*/
@@ -118,11 +169,28 @@ footer{
     .code {
         font-size: 1.6vw;
     }
+
+    
+}
+@media screen and (min-width: 701px){
+    .wrapper-1{
+        grid-template-columns: 15fr 45fr;
+    }
+    .wrapper-2 {
+        grid-template-columns: 30fr 8fr 40fr;
+    }
+    .wrapper-3 {
+        grid-template-columns: 30fr 8fr 40fr;
+    }
+    .info-cert, .info-skill, .info-lang {
+        grid-template-columns: 35fr 45fr;
+    }
+    
     
 }
 @media screen and (max-width: 500px){
     .code {
-        font-size: 2.5vw;
+        font-size: 2.2vw;
     }
     .footer-img {
         max-height: 4vh;

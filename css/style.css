@@ -1,5 +1,35 @@
-body{
+/*HEADER*/
+
+header {
+    background-color: rgb(4, 30, 30);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.menu {
+    color: rgb(209, 255, 255);
+    list-style-type: none;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+ul.menu li{
+    display: inline;
+    padding: 0 12px;
+}
+.a-menu {
+    color: rgb(209, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+    text-decoration: none; 
+}
+
+/*BODY*/
+.box {
+    margin: 2% 10vw;
+}
+
+body {
     background-color: rgb(209, 255, 255);
+
 
 }
 h1 {
@@ -14,9 +44,17 @@ h3 {
     color: rgb(0, 136, 136);
     font-family: 'Ysabeau SC', sans-serif;
 }
-p, a{
+p {
     color:rgb(4, 30, 30);
     font-family: 'Inconsolata', monospace;
+}
+.certificates {
+    list-style-type: none;
+}
+.a-certificates {
+    color:rgb(4, 30, 30);
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
 }
 .info {
     padding: 0;
@@ -26,5 +64,20 @@ p, a{
     width: 50vh;
 }
 .code {
-    color: rgb(113, 38, 0);
+    color: rgb(2, 72, 51);
+}
+
+/*FOOTER*/
+
+footer{
+    margin: 5%;
+    background-color: rgb(4, 30, 30);
+    height: 100px;
+    display: flex;
+    justify-content: right;
+}
+.footer-img {
+    height: 80%;
+    margin-left: auto;
+    padding-right: 5%;
 }

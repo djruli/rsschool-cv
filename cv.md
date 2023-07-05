@@ -47,7 +47,7 @@ IT Support specialist. Graduated from Coursera, 2023
 * Adobe Photoshop, GIMP
 * MS Office
 
-### Sertificates:
+### Certificates:
 
 * "IT support from Google" by Google https://coursera.org/verify/professional-cert/XLF6T6QWNSSK
 * "System administration and IT infrastructure services" by Coursera/Google https://coursera.org/verify/EXNL32GYM6C8

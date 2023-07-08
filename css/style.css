@@ -1,5 +1,12 @@
-/*HEADER*/
+html {
+    scroll-behavior: smooth; 
+  }
 
+
+/*HEADER*/
+.navigation{
+    transition: .3s;
+}
 header {
     background-color: rgb(4, 30, 30);
     height: 10%;
@@ -23,6 +30,10 @@ ul.menu li{
     color: rgb(209, 255, 255);
     font-family: 'Ysabeau SC', sans-serif;
     text-decoration: none; 
+}
+.a-menu:hover{
+    color: rgb(168, 195, 148);
+    transition: .6s;
 }
 .hr{
     margin-top: 15px;
@@ -89,6 +100,10 @@ ul.contact-list li, ul.skill-list li{
     color:rgb(4, 30, 30);
     font-family: 'Inconsolata', monospace;
 }
+.contact-list li{
+    line-height: 31px;
+}
+
 p {
     color:rgb(4, 30, 30);
     font-family: 'Inconsolata', monospace;
@@ -108,6 +123,10 @@ p {
     font-family: 'Inconsolata', monospace;
     text-decoration: none;
 }
+.a-certificates:hover {
+    color:rgb(68, 136, 135);
+    transition: .6s;
+}
 .info {
     padding: 0;
     margin: 0;
@@ -124,6 +143,9 @@ p {
     display: grid;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.skill-list li{
+    line-height: 30px;
 }
 .info-lang {
     display: grid;

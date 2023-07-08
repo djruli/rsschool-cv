@@ -36,6 +36,8 @@ Chemist. Graduated from Karazin Kharkiv National University, 1998
 
 Manager. Graduated from Faculty of advanced training, Kharkiv State Technical University of Agriculture, 2003
 
+IT Support specialist. Graduated from Coursera, 2023
+
 ### Skills and Proficiency:
 
 * HTML5, CSS3
@@ -45,15 +47,42 @@ Manager. Graduated from Faculty of advanced training, Kharkiv State Technical Un
 * Adobe Photoshop, GIMP
 * MS Office
 
+### Certificates:
+
+* "IT support from Google" by Google https://coursera.org/verify/professional-cert/XLF6T6QWNSSK
+* "System administration and IT infrastructure services" by Coursera/Google https://coursera.org/verify/EXNL32GYM6C8
+* "Operating systems and you"  by Coursera/Google https://coursera.org/verify/MTJ8ZJ8GEHG4
+* "Basics of technical support" by Coursera/Google https://coursera.org/verify/PWCSHX384K4J
+* "Bits and bytes of a computer network" by Coursera/Google https://coursera.org/verify/ZUD5YBRZZL66
+* "IT security: protection against digital cyber fraud" by Coursera/Google https://coursera.org/verify/XD2DSYVM3VCM
+
 ### Code example:
 
-Sample from **codewars.com** registration:
+Sample from **codewars.com** N-th Fibonacci:
 
 ```
-function multiply(a, b){
-  let c = a * b
-  return c
+function nthFibo(n) {
+  // Return the n-th number in the Fibonacci Sequence
+  if (n === 1){
+    return 0;
+  } else if (n === 2 || n === 3) {
+    return 1;
+  } else if (n === 4 ){
+    return 2;
   }
+  let a = 1;
+  let b = 1;
+  let f = 0;
+  for (let i = 4; i <= n; i = i + 1){
+    f = a + b;
+    a = b;
+    b = f;
+    
+    
+  }
+  return f;
+  
+}
 ```
 
 ### Languages:

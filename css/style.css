@@ -152,6 +152,20 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.info-lang li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.a-proj {
+    color:rgb(4, 30, 30);
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    line-height: 30px;
+}
+.a-proj:hover {
+    color:rgb(68, 136, 135);
+    transition: .6s;
+}
 .certificates{
     text-align: justify;
 }
